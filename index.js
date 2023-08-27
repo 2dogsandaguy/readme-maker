@@ -1,16 +1,3 @@
-/* // TODO: Include packages needed for this application
-
-// TODO: Create an array of questions for user input
-const questions = [];
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init(); */
 const inquirer = require('inquirer');
 const fs = require('fs');
 
@@ -19,7 +6,13 @@ function promptUser() {
     {
       type: 'input',
       name: 'projectTitle',
-      message: 'Enter your project title:'
+      message: 'Enter your project title:',
+      validate: function (input) {
+        if (!input.trim()) {
+          return "Project title cannot be empty. Please enter a valid title.";
+        }
+        return true;
+      }
     },
     {
       type: 'input',
@@ -63,7 +56,7 @@ function promptUser() {
       message: 'Enter your email address:'
     }
   ]);
-}
+};
 
 promptUser()
   .then((data) => generateReadme(data))
@@ -114,6 +107,10 @@ ${noValueWithNA(description)}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+- [Links](#links)
+- [Screenshots](#screenshots)
+- [Questions](#questions)
+
 
 ## Installation
 ${noValueWithNA(installation)}
@@ -127,14 +124,31 @@ ${noValueWithNA(contributing)}
 ## Tests
 ${noValueWithNA(tests)}
 
+## Links   <!-- Add Links section -->
+- [Live Demo](https://your-project-demo.com)
+- [Documentation](https://your-project-documentation.com)
+- [GitHub Repository](https://github.com/your-username/your-project)
+
+## Screenshots
+
+1. ![Screenshot 1](screenshots/screenshot1.png)
+   _Description of the screenshot._
+
+2. ![Screenshot 2](screenshots/screenshot2.png)
+   _Description of the screenshot._
+
+3. ![Screenshot 3](screenshots/screenshot3.png)
+   _Description of the screenshot._
+
 ## Questions
+If you have any questions about the project, you can reach me via email at [${noValueWithNA(email)}](mailto:${noValueWithNA(email)}). Feel free to ask any additional questions or provide feedback.
 GitHub: [${noValueWithNA(github)}](https://github.com/${noValueWithNA(github)})
 Email: [${noValueWithNA(email)}](mailto:${noValueWithNA(email)})
   `;
   return readme;
-}
+};
 
- function getLicenseBadge(license) {
+function getLicenseBadge(license) {
     switch (license) {
       case 'MIT':
         return '![MIT License](https://img.shields.io/badge/license-MIT-brightgreen)';
@@ -146,14 +160,14 @@ Email: [${noValueWithNA(email)}](mailto:${noValueWithNA(email)})
         return '![ISC License](https://img.shields.io/badge/license-ISC-blue)';
       default:
         return '';
-    }
-  }
-   
+    };
+  };
+
   function getLicenseText(license) {
 
     return '';
-  }
-
+  };
+// Function to write the generated README content to a file
 function writeReadmeToFile(readme) {
   fs.writeFile('README.md', readme, (err) => {
     if (err) {
@@ -162,4 +176,4 @@ function writeReadmeToFile(readme) {
       console.log('README.md file generated.');
     }
   });
-}
+};

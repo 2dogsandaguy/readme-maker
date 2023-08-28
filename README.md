@@ -1,15 +1,15 @@
 
-# fuck
+# readme project
 
 
   ## License
-  ![MIT License](https://img.shields.io/badge/license-MIT-brightgreen)
+  ![GPLv3 License](https://img.shields.io/badge/license-GPLv3-blue)
   
   
     
 
 ## Description
-N/A
+make readme
 
 ## Table of Contents
 - [Installation](#installation)
@@ -27,10 +27,10 @@ N/A
 N/A
 
 ## Usage
-N/A
+quick way to makereadme
 
 ## Contributing
-N/A
+bootcamp
 
 ## Tests
 N/A
@@ -52,7 +52,7 @@ N/A
    _Description of the screenshot._
 
 ## Questions
-If you have any questions about the project, you can reach me via email at [N/A](mailto:N/A). Feel free to ask any additional questions or provide feedback.
-GitHub: [N/A](https://github.com/N/A)
-Email: [N/A](mailto:N/A)
+If you have any questions about the project, you can reach me via email at [dribbles@aol.com](mailto:dribbles@aol.com). Feel free to ask any additional questions or provide feedback.
+GitHub: [2dogsandaguy](https://github.com/2dogsandaguy)
+Email: [dribbles@aol.com](mailto:dribbles@aol.com)
   

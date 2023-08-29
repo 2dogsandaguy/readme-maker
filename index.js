@@ -58,8 +58,20 @@ function promptUser() {
       name: "email",
       message: "Enter your email address:",
     },
+    {
+      type: "confirm",
+      name: "includeScreenshots",
+      message: "Do you want to include screenshot section?",
+      default: true,
+    },
+    {
+      type: "confirm",
+      name: "includeLinks",
+      message: "Do you want to include links section?",
+      default: true,
+    },
   ]);
-}
+};
 
 // Function to generate the license section for the readme
 function generateLicenseSection(license) {
@@ -72,7 +84,7 @@ function generateLicenseSection(license) {
   
   ${licenseText}
     `;
-}
+};
 
 // Function to generate the complete readme content
 function generateReadme(data) {
@@ -86,8 +98,34 @@ function generateReadme(data) {
     tests,
     github,
     email,
+    includeScreenshots,
+    includeLinks,
   } = data;
+  // Generate screenshots section (if selected)
+  const screenshotsSection = includeScreenshots
+    ? `
+## Screenshots
 
+1. ![Screenshot 1](screenshots/screenshot1.png)
+   Description of the screenshot.
+
+2. ![Screenshot 2](screenshots/screenshot2.png)
+   Description of the screenshot.
+
+3. ![Screenshot 3](screenshots/screenshot3.png)
+   Description of the screenshot.
+`
+    : "";
+
+  // Generate links section (if selected)
+  const linksSection = includeLinks
+    ? `
+## Links
+
+- [Live Demo](https://your-project-demo.com)
+- [GitHub Repository](https://github.com/your-username/your-project)
+`
+    : "";
   // Generate license section
   const licenseSection = generateLicenseSection(license);
 
@@ -103,20 +141,44 @@ ${licenseSection}
 ## Description
 ${noValueWithNA(description)}
 
-// ... (Table of Contents and sections)
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Screenshots](#screenshots)
+- [links](#links)
+
+## Installation
+${noValueWithNA(installation)}
+
+## Usage
+${noValueWithNA(usage)}
+
+## Contributing
+${noValueWithNA(contributing)}
+
+## Tests
+${noValueWithNA(tests)}
+
+${screenshotsSection}
+
+${linksSection}
 
 ## Questions
 If you have any questions about the project, you can reach me via email at [${noValueWithNA(
     email
   )}]
-(mailto:${noValueWithNA(
+${noValueWithNA(
     email
-  )}). Feel free to ask any additional questions or provide feedback.
+  )}. Feel free to ask any additional questions or provide feedback.
 GitHub: [${noValueWithNA(github)}](https://github.com/${noValueWithNA(github)})
 Email: [${noValueWithNA(email)}](mailto:${noValueWithNA(email)})
   `;
   return readme;
-}
+};
 
 // Function to get the license badge based on the chosen license
 function getLicenseBadge(license) {
@@ -131,13 +193,13 @@ function getLicenseBadge(license) {
       return "![ISC License](https://img.shields.io/badge/license-ISC-blue)";
     default:
       return "";
-  }
-}
+  };
+};
 
 // Function to get the license text (currently empty)
 function getLicenseText(license) {
   return "";
-}
+};
 
 // Function to write the generated readme content to a file
 function writeReadmeToFile(readme) {
@@ -148,7 +210,7 @@ function writeReadmeToFile(readme) {
       console.log("README.md file generated.");
     }
   });
-}
+};
 
 // Start the user prompt and generate readme
 promptUser()

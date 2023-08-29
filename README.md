@@ -1,5 +1,5 @@
 
-# pop
+# Readme-Sample
 
 
   ## License
@@ -9,7 +9,7 @@
     
 
 ## Description
-N/A
+This is to boost my homework grade so I can get all 100 on every homework. That I show that i created the readme with this app.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -18,40 +18,32 @@ N/A
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-- [Links](#links)
 - [Screenshots](#screenshots)
-- [Questions](#questions)
+- [links](#links)
 
 ## Installation
-N/A
+Go to file named the-original-readme file there is a gif and a video link on how to run my app.
 
 ## Usage
-N/A
+Go to file named the-original-readme file there is a gif and a video link on how to run my app.
 
 ## Contributing
-N/A
+bootcamp spot, class mates, and the worldwide web.
 
 ## Tests
-ddsfsdfsd
+N/A
 
-## Links   <!-- Add Links section -->
+
+
+
+## Links
+
 - [Live Demo](https://your-project-demo.com)
-- [Documentation](https://your-project-documentation.com)
 - [GitHub Repository](https://github.com/your-username/your-project)
 
-## Screenshots
-
-1. ![Screenshot 1](screenshots/screenshot1.png)
-   _Description of the screenshot._
-
-2. ![Screenshot 2](screenshots/screenshot2.png)
-   _Description of the screenshot._
-
-3. ![Screenshot 3](screenshots/screenshot3.png)
-   _Description of the screenshot._
-
 ## Questions
-If you have any questions about the project, you can reach me via email at [neverclear@ymail.com](mailto:neverclear@ymail.com). Feel free to ask any additional questions or provide feedback.
+If you have any questions about the project, you can reach me via email at [neverclear@ymail.com]
+neverclear@ymail.com. Feel free to ask any additional questions or provide feedback.
 GitHub: [2dogsandaguy](https://github.com/2dogsandaguy)
 Email: [neverclear@ymail.com](mailto:neverclear@ymail.com)
   

@@ -29,7 +29,7 @@ Replace your-script.js with the name of the JavaScript file containing the provi
 You will be prompted with a series of questions. Answer each question as accurately as possible.
 Once you've answered all the questions, the script will generate a README.md file based on your inputs. The generated file will be saved in the same directory.
 
-![readme-project video](./images/readme-video.gif) 
+![readme-project video](./images/readme-video.gif)
 
    
 Click the video to see fullsize version of the Readme maker instructions.

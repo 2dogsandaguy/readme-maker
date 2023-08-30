@@ -203,7 +203,7 @@ function getLicenseText(license) {
 
 // Function to write the generated readme content to a file
 function writeReadmeToFile(readme) {
-  fs.writeFile("README.md", readme, (err) => {
+  fs.writeFile("./dist/Sample_README.md", readme, (err) => {
     if (err) {
       console.error(err);
     } else {

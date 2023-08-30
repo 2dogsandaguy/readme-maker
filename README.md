@@ -1,15 +1,15 @@
 
-# Readme-Sample
+# readme-maker
 
 
   ## License
-  ![MIT License](https://img.shields.io/badge/license-MIT-brightgreen)
+  ![Apache License 2.0](https://img.shields.io/badge/license-Apache%202.0-blue)
   
   
     
 
 ## Description
-This is to boost my homework grade so I can get all 100 on every homework. That I show that i created the readme with this app.
+This is a project that is that can create a readme easier and fasterThis project is a simple Node.js script that generates a standardized README.md file for your projects using the Inquirer library. The README.md file is a crucial part of any software project, as it provides essential information about the project to potential users, contributors, and collaborators.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -18,32 +18,35 @@ This is to boost my homework grade so I can get all 100 on every homework. That 
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-- [Screenshots](#screenshots)
-- [links](#links)
 
 ## Installation
-Go to file named the-original-readme file there is a gif and a video link on how to run my app.
+To install and use this project, follow these steps: -Clone the repository to your local machine. -Navigate to the project's directory. -Install the required dependencies using Node.js package manager. -The necessary dependencies will be installed, and you'll be ready to use the project.
 
 ## Usage
-Go to file named the-original-readme file there is a gif and a video link on how to run my app.
+After the installation process, make sure you are still in the project's directory.
+Open the terminal and run the project using the following command:
+Replace your-script.js with the name of the JavaScript file containing the provided code.
+You will be prompted with a series of questions. Answer each question as accurately as possible.
+Once you've answered all the questions, the script will generate a README.md file based on your inputs. The generated file will be saved in the same directory.
+
+![readme-project video](./images/readme-video.gif)
+
+   
+Click the video to see fullsize version of the Readme maker instructions.
+[![Video](https://img.youtube.com/vi/-nVecQ8uJQE/0.jpg)](https://www.youtube.com/watch?v=-nVecQ8uJQE)
 
 ## Contributing
-bootcamp spot, class mates, and the worldwide web.
+bootcamp spot mini-project, the worldwide web ,and classes mates 
 
 ## Tests
-N/A
-
-
-
-
-## Links
-
-- [Live Demo](https://your-project-demo.com)
-- [GitHub Repository](https://github.com/your-username/your-project)
+Ran the node test multiple times and created multiple readme files without a problem.
+If you want to test the project.
+Use installation to run the tests.
+Then type node index to run the tests.
+Answer the following prompt and readme file will be generated.
 
 ## Questions
-If you have any questions about the project, you can reach me via email at [neverclear@ymail.com]
-neverclear@ymail.com. Feel free to ask any additional questions or provide feedback.
+If you have any questions about the project, you can reach me via email at [neverclear@ymail.com](mailto:neverclear@ymail.com). Feel free to ask any additional questions or provide feedback.
 GitHub: [2dogsandaguy](https://github.com/2dogsandaguy)
 Email: [neverclear@ymail.com](mailto:neverclear@ymail.com)
   

@@ -9,7 +9,7 @@
     
 
 ## Description
-This is a project that is that can create a readme easier and fasterThis project is a simple Node.js script that generates a standardized README.md file for your projects using the Inquirer library. The README.md file is a crucial part of any software project, as it provides essential information about the project to potential users, contributors, and collaborators.
+This is a project that is that can create a readme easier and fasterThis project is a simple Node.js script that generates a standardized README.md file for your projects using the Inquirer library. The README.md file is a crucial part of any software project, as it provides essential information about the project to potential users, contributors, and collaborators. The created Sample_readme.md in dist folder.
 
 ## Table of Contents
 - [Installation](#installation)

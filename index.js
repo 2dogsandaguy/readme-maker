@@ -148,8 +148,8 @@ ${noValueWithNA(description)}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-- [Screenshots](#screenshots)
-- [links](#links)
+${includeScreenshots ? '- [Screenshots](#screenshots)' : ''}
+${includeLinks ? '- [Links](#links)' : ''}
 
 ## Installation
 ${noValueWithNA(installation)}

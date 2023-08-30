@@ -1,5 +1,5 @@
 
-# pop
+# Sample-readme
 
 
   ## License
@@ -9,7 +9,7 @@
     
 
 ## Description
-N/A
+I created this for me to try to get a 100 on this homework.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -19,16 +19,16 @@ N/A
 - [Tests](#tests)
 - [Questions](#questions)
 - [Screenshots](#screenshots)
-- [links](#links)
+- [Links](#links)
 
 ## Installation
-N/A
+GO to readme.md file to see how it works.
 
 ## Usage
-N/A
+I created this for me to try to get a 100 on this homework.
 
 ## Contributing
-N/A
+the super amazing ask bcs sucks.
 
 ## Tests
 N/A
@@ -54,8 +54,8 @@ N/A
 
 
 ## Questions
-If you have any questions about the project, you can reach me via email at [N/A]
-N/A. Feel free to ask any additional questions or provide feedback.
-GitHub: [N/A](https://github.com/N/A)
-Email: [N/A](mailto:N/A)
+If you have any questions about the project, you can reach me via email at [dribbles@aol.com]
+dribbles@aol.com. Feel free to ask any additional questions or provide feedback.
+GitHub: [2dogsandaguy](https://github.com/2dogsandaguy)
+Email: [dribbles@aol.com](mailto:dribbles@aol.com)
   
